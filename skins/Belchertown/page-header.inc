@@ -19,6 +19,10 @@
                 <h1>$obs.label.reports_page_header</h1>
 		#else if $page == "about"
                 <h1>$obs.label.about_page_header</h1>
+        #else if $page == "tropics"
+                <h1>$obs.label.tropics_page_header</h1>
+        #else if $page == "almanac"
+                <h1>$obs.label.almanac_page_header</h1>
 		#end if
             </div>
         </div>
