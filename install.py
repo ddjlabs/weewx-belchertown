@@ -200,11 +200,7 @@ files=[('bin/user', ['bin/user/belchertown.py'
        ('skins/Belchertown/about', ['skins/Belchertown/about/index.html.tmpl']),
        ('skins/Belchertown/graphs', ['skins/Belchertown/graphs/index.html.tmpl']),
        ('skins/Belchertown/NOAA', ['skins/Belchertown/NOAA/NOAA-YYYY-MM.txt.tmpl',
-                                   'skins/Belchertown/NOAA/NOAA-YYYY.txt.tmpl'
-                                  ]
-        ),
-       ('skins/Belchertown/almanac', ['skins/Belchertown/almanac/index.html.tmpl']),
-       ('skins/Belchertown/tropics', ['skins/Belchertown/tropics/index.html.tmpl']),        
+                                   'skins/Belchertown/NOAA/NOAA-YYYY.txt.tmpl']),     
        ('skins/Belchertown/pi', ['skins/Belchertown/pi/index.html.tmpl']),
        ('skins/Belchertown/records', ['skins/Belchertown/records/index.html.tmpl']),
        ('skins/Belchertown/reports', ['skins/Belchertown/reports/index.html.tmpl']),
@@ -249,7 +245,12 @@ files=[('bin/user', ['bin/user/belchertown.py'
                                      'skins/Belchertown/images/index.html',
                                      'skins/Belchertown/images/aeris-icon-list.json'                                    
                                     ]
-        )
+        ),
+       ('skins/Belchertown/almanac', ['skins/Belchertown/almanac/index.html.tmpl']),
+       ('skins/Belchertown/tropics', ['skins/Belchertown/tropics/index.html.tmpl']),
+       ('skins/Belchertown', ['skins/Belchertown/index_hook_after_station_info.inc']),
+       ('skins/Belchertown', ['skins/Belchertown/about.inc'])
+
 ]
 files_dict = files
 
