@@ -1,5 +1,6 @@
 # Installer for Belchertown weewx skin
 # Pat O'Brien, 2018
+# Updated for LargoWeather Use Only (07-12-2022 4:00PM - Doug Jenkins)
 
 import configobj
 from setup import ExtensionInstaller
@@ -202,6 +203,8 @@ files=[('bin/user', ['bin/user/belchertown.py'
                                    'skins/Belchertown/NOAA/NOAA-YYYY.txt.tmpl'
                                   ]
         ),
+       ('skins/Belchertown/almanac', ['skins/Belchertown/almanac/index.html.tmpl']),
+       ('skins/Belchertown/tropics', ['skins/Belchertown/tropics/index.html.tmpl']),        
        ('skins/Belchertown/pi', ['skins/Belchertown/pi/index.html.tmpl']),
        ('skins/Belchertown/records', ['skins/Belchertown/records/index.html.tmpl']),
        ('skins/Belchertown/reports', ['skins/Belchertown/reports/index.html.tmpl']),
