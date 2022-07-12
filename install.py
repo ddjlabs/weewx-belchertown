@@ -250,7 +250,6 @@ files=[('bin/user', ['bin/user/belchertown.py'
        ('skins/Belchertown/tropics', ['skins/Belchertown/tropics/index.html.tmpl']),
        ('skins/Belchertown', ['skins/Belchertown/index_hook_after_station_info.inc']),
        ('skins/Belchertown', ['skins/Belchertown/about.inc'])
-
 ]
 files_dict = files
 
